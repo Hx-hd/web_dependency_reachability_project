@@ -1,0 +1,42 @@
+name: dependency-reachability-lab
+x-app-defaults: &app-defaults
+  init: true
+  restart: "no"
+  read_only: true
+  tmpfs:
+    - /tmp:rw,nosuid,nodev,size=16m
+  cap_drop:
+    - ALL
+  security_opt:
+    - no-new-privileges:true
+  pids_limit: 100
+  mem_limit: 256m
+services:
+  c01:
+    <<: *app-defaults
+    build:
+      context: ./cases/C01-safe
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3001:3000"
+  c02:
+    <<: *app-defaults
+    build:
+      context: ./cases/C02-present-unused
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3002:3000"
+  c03:
+    <<: *app-defaults
+    build:
+      context: ./cases/C03-internal-only
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3003:3000"
+  c04:
+    <<: *app-defaults
+    build:
+      context: ./cases/C04-web-reachable
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3004:3000"
