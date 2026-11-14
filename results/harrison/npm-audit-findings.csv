@@ -1,0 +1,13 @@
+npm Audit Findings,,,,,,,,
+,,,,,,,,
+Case ID,Package,Installed Version,GHSA ID,CVE Alias,Severity,Score,Score Basis,Source JSON
+C02,lodash,4.17.20,GHSA-35jh-r3h4-6jhm,CVE-2021-23337,High,7.2,CVSS v3.1 (npm audit),C02-present-unused-npm-audit.json
+C02,lodash,4.17.20,GHSA-29mw-wpgm-hmr9,CVE-2020-28500,Moderate,5.3,CVSS v3.1 (npm audit),C02-present-unused-npm-audit.json
+C02,lodash,4.17.20,GHSA-r5fr-rjxr-66jc,CVE-2026-4800,High,8.1,CVSS v3.1 (npm audit),C02-present-unused-npm-audit.json
+C02,lodash,4.17.20,GHSA-xxjr-mmjv-4gpg,CVE-2025-13465,Moderate,6.5,CVSS v3.1 (npm audit),C02-present-unused-npm-audit.json
+C03,minimist,1.2.5,GHSA-xvch-5gv4-984h,CVE-2021-44906,Critical,9.8,CVSS v3.1 (npm audit),C03-internal-only-npm-audit.json
+C04,lodash,4.17.20,GHSA-35jh-r3h4-6jhm,CVE-2021-23337,High,7.2,CVSS v3.1 (npm audit),C04-web-reachable-npm-audit.json
+C04,lodash,4.17.20,GHSA-29mw-wpgm-hmr9,CVE-2020-28500,Moderate,5.3,CVSS v3.1 (npm audit),C04-web-reachable-npm-audit.json
+C04,lodash,4.17.20,GHSA-r5fr-rjxr-66jc,CVE-2026-4800,High,8.1,CVSS v3.1 (npm audit),C04-web-reachable-npm-audit.json
+C04,lodash,4.17.20,GHSA-xxjr-mmjv-4gpg,CVE-2025-13465,Moderate,6.5,CVSS v3.1 (npm audit),C04-web-reachable-npm-audit.json
+C01: No vulnerabilities reported.,,,,,,,,

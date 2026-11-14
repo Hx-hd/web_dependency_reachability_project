@@ -1,0 +1,14 @@
+OSV Findings,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Case ID,Package,Installed Version,GHSA ID,CVE Alias,Severity,Score,Score Basis,Source JSON
+C02,lodash,4.17.20,GHSA-29mw-wpgm-hmr9,CVE-2020-28500,Moderate,5.3,OSV group maximum: CVSS v3,C02-present-unused-osv.json
+C02,lodash,4.17.20,GHSA-35jh-r3h4-6jhm,CVE-2021-23337,High,7.2,OSV group maximum: CVSS v3,C02-present-unused-osv.json
+C02,lodash,4.17.20,GHSA-r5fr-rjxr-66jc,CVE-2026-4800,High,8.1,OSV group maximum: CVSS v3,C02-present-unused-osv.json
+C02,lodash,4.17.20,GHSA-xxjr-mmjv-4gpg,CVE-2025-13465,Moderate,6.9,"OSV group maximum: CVSS v3, CVSS v4",C02-present-unused-osv.json
+C03,minimist,1.2.5,GHSA-xvch-5gv4-984h,CVE-2021-44906,Critical,9.8,OSV group maximum: CVSS v3,C03-internal-only-osv.json
+C04,lodash,4.17.20,GHSA-29mw-wpgm-hmr9,CVE-2020-28500,Moderate,5.3,OSV group maximum: CVSS v3,C04-web-reachable-osv.json
+C04,lodash,4.17.20,GHSA-35jh-r3h4-6jhm,CVE-2021-23337,High,7.2,OSV group maximum: CVSS v3,C04-web-reachable-osv.json
+C04,lodash,4.17.20,GHSA-r5fr-rjxr-66jc,CVE-2026-4800,High,8.1,OSV group maximum: CVSS v3,C04-web-reachable-osv.json
+C04,lodash,4.17.20,GHSA-xxjr-mmjv-4gpg,CVE-2025-13465,Moderate,6.9,"OSV group maximum: CVSS v3, CVSS v4",C04-web-reachable-osv.json
+C01: No vulnerabilities reported.,,,,,,,,
